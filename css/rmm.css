@@ -1,0 +1,27 @@
+.border-half{
+    border-bottom:5px purple solid;
+    position: absolute;
+    top:50%;
+    left:10%;
+    width:50%;
+}
+.append-border{
+    position:relative;
+}
+.purple{
+    color:purple;
+}
+.img-discount{
+    position: relative;
+}
+.img-discount div{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.img-discount img{
+    width:100%;
+}
+.cursor-pointer{
+    cursor: pointer;
+  }
