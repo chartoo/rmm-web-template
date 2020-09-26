@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find your rooms | Make your properties</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/slick.css">
     <link rel="stylesheet" href="/css/first-section.css">
     <link rel="stylesheet" href="/css/rmm.css">
-    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/circle-connect.css">
+    <link rel="stylesheet" href="/css/show-by-city.css">
     <!-- <link rel="stylesheet" href="/css/slick-theme.css"> -->
 
 <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
@@ -31,27 +33,9 @@
 <?php include('components/navbar.php');?>
 <?php include('components/section-first.php'); ?>
 <?php include('components/section-second.php');?>
-<div class="container">
-    <div class="row py-4">
-        <div class="col-3 px-0">
-            <div class="bg-white border rounded p-3  text-center  pb-5 shadow">
-                <h3 class="text-center append-border">
-                    <b class="roboto ">Today's detals</b>
-                    <hr class="border-half">
-                    <br>
-                </h3>
-              
-                <p class="text-justify py-4 playfair">
-                   <i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat culpa in dolorum aut labore dolore expedita.</i>
-                </p>
-                <a href="#" class="text-decoration-none"><h3><b class="text-primary" style="color:#6177EB;">See All </b><img src="/images/icons/right-arrow-blue.png" alt=""></h3></a>
-            </div>
-        </div>
-        <div class="col-md-9">
-            <?php include('components/section-deals.php') ?>
-        </div>
-    </div>
-</div>
+<?php include('components/section-third.php');?>
+<?php include('components/section-fourth.php');?>
+
 </section>
    
 </body>

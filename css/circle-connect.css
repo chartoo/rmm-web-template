@@ -1,0 +1,22 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    background: white;
+    margin: 0 4em;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    border: blueviolet 1px solid;
+}
+.line {
+    position: absolute;
+    content: '';
+    left: 99%;
+    top:35%;
+    width: 9em;
+    height: 1px;
+    background: black;
+    z-index: 0;
+  }
