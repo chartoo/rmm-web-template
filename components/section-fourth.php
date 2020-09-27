@@ -51,7 +51,40 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2"></div>
+            <div class="col-2">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#" class="text-decoration-none">
+                            <b class="roboto text-primary">Taunggyi</b> &emsp;
+                            <img src="/images/icons/right-arrow-blue.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">
+                            <b class="roboto text-primary">Kalaw</b>&emsp;
+                            <img src="/images/icons/right-arrow-blue.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">
+                            <b class="roboto text-primary">PyinOoLwin</b>&emsp;
+                            <img src="/images/icons/right-arrow-blue.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">
+                            <b class="roboto text-primary">Pakokku</b>&emsp;
+                            <img src="/images/icons/right-arrow-blue.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none">
+                            <b class="roboto text-primary">Monywa</b>&emsp;
+                            <img src="/images/icons/right-arrow-blue.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

@@ -1,6 +1,6 @@
 <div class="bg-img">
     <section class=" bg-opacity ">
-    <div class="container-fluid">
+    <div class="container-fluid pl-5">
         <div class="row">
             <div class="col-6 pt-5 pl-5">
                 <div class=" rounded shadow-lg p-4  search-section-first">

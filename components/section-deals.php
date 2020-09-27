@@ -28,9 +28,9 @@
             </div>
             <div class="row">
                 <div class="col-2 text-right px-0">Address : </div>
-                <div class="col-5 px-1"> <i class="roboto"> 23st , BoMinYaung St, Yangon Myanmar</i></div>
-                <div class="col-5 px-0 text-right pr-3">
-                    <a href="#" class="btn btn-sm bg-puple text-white rounded-0" style="font-size:10px;">Get Coupon <img src="/images/icons/right-arrow" width="15px" alt=""></a>
+                <div class="col-5 px-1"> <i class="roboto text-judstify"> 23st , BoMinYaung St, Yangon Myanmar</i></div>
+                <div class="col-5 text-right px-0 pr-3">
+                    <a href="#" class="btn btn-sm bg-puple text-white rounded-0" style="font-size:10px;"><b>Get Coupon </b> <img src="/images/icons/right-arrow.png" class="d-inline" width="15px" alt=""></a>
                 </div>
             </div>
             </div>
@@ -38,7 +38,7 @@
     </div>
     <?php endforeach; ?>
 </div>
-<div class="row border bg-light rounded-0 py-1 mt-2 px-0">
+<div class="row border bg-light rounded-0 py-1 mt-2 mx-1">
     <div class="col-4 text-right">
         <i class="fas fa-step-backward" id="custom-prev-slick-slide"  data-toggle="tooltip" data-placement="top" title="Previous Slide"></i> &emsp;
         <i class="fas fa-chevron-left slick-next slick-arrow cursor-pointer" id="custom-prev-slick" data-toggle="tooltip" data-placement="top" title="Previous One"></i>

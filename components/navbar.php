@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light roboto">
+<nav class="navbar navbar-expand-lg navbar-light bg-light roboto sticky-top shadow-md">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse pr-5" id="navbarNavDropdown" style="justify-content:flex-end;">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="#"><b>Today's Deals</b> </span></a>

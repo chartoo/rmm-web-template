@@ -35,6 +35,7 @@
 <?php include('components/section-second.php');?>
 <?php include('components/section-third.php');?>
 <?php include('components/section-fourth.php');?>
+<?php include('components/section-footer.php');?>
 
 </section>
    

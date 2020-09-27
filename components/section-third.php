@@ -1,6 +1,6 @@
 <div class="container py-4">
     <div class="row py-4">
-        <div class="col-3 px-0">
+        <div class="col-3 pr-1">
             <div class="bg-white border rounded p-3  text-center  pb-5 shadow">
                 <h3 class="text-center append-border">
                     <b class="roboto ">Today's detals</b>
@@ -8,13 +8,13 @@
                     <br>
                 </h3>
               
-                <p class="text-justify py-4 playfair">
+                <p class="text-justify pt-4 pb-3 playfair">
                    <i> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat culpa in dolorum aut labore dolore expedita.</i>
                 </p>
                 <a href="#" class="text-decoration-none"><h3><b class="text-primary" style="color:#6177EB;">See All </b><img src="/images/icons/right-arrow-blue.png" alt=""></h3></a>
             </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 px-1">
             <?php include('components/section-deals.php') ?>
         </div>
     </div>
