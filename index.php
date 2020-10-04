@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/rmm.css">
     <link rel="stylesheet" href="/css/circle-connect.css">
     <link rel="stylesheet" href="/css/show-by-city.css">
+    <link rel="stylesheet" href="/css/fontawesome.css">
     <!-- <link rel="stylesheet" href="/css/slick-theme.css"> -->
 
 <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
@@ -35,6 +36,8 @@
 <?php include('components/section-second.php');?>
 <?php include('components/section-third.php');?>
 <?php include('components/section-fourth.php');?>
+<?php include('components/section-fifth.php');?>
+<?php include('components/section-sixth.php');?>
 <?php include('components/section-footer.php');?>
 
 </section>
@@ -43,7 +46,6 @@
 <script src="/js/jquery-3.5.1.slim.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/popper.min.js"></script>
-<script src="/js/fontawesome.js"></script>
 <script src="/js/slick.js"></script>
 
 <script type="text/javascript" src="/js/moment.min.js"></script>

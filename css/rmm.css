@@ -11,6 +11,9 @@
 .purple{
     color:purple;
 }
+.bg-purple{
+    background-color:purple;
+}
 .img-discount{
     position: relative;
 }
@@ -27,4 +30,10 @@
   }
 .section-footer{
     background-color: #0B2239;
+}
+.subscribe-form>input{
+    width:65%;
+}
+.subscribe-form>button{
+    margin-left:-5px;
 }

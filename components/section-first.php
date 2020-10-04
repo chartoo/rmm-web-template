@@ -44,8 +44,9 @@
                     <div class="pt-5">
                         <h1 class="playfair"><b class="text-white">Make Your </b><b class="text-warning">End-To-End</b><b class="text-white"> Property</b></h1>
                         <h4 class="text-white playfair py-4"> Help the guests to easily find out more your properties.</h4>
+                        <p>200000+ Guests find your rooms</p>
                         <div>
-                            <a href="#" class="text-decoration-none roboto"><b class="text-warning" style="font-size:20px;"> Get Free Listing </b> &emsp;<img src="/images/icons/right-arrow.png" alt=""></a>
+                            <a href="#" class="btn btn-md btn-warning text-decoration-none roboto"><b class="text-white" style="font-size:20px;"> Get Free Listing </b> &emsp;<img src="/images/icons/right-arrow.png" alt=""></a>
                         </div>
                         </div>
                 </div>  
