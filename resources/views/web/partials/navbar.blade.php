@@ -33,7 +33,7 @@
           <a class="nav-link" href="#"  data-toggle="modal" data-target="#popupLoginModal"><b><u>Login</u></b></a>
         </li>
         <li class="nav-item pl-3">
-          <button class="btn btn-sm btn-success" href="#"><b> Create Account </b></button>
+          <button class="btn btn-sm btn-success" href="#" data-toggle="modal" data-target="#popupCreateModal"><b> Create Account </b></button>
         </li>
       </ul>
   </nav>
@@ -64,7 +64,7 @@
       <div class="pt-2">
       <h6 class="text-center">Login with social acoount</h6>
       <div class="text-center">
-        <i class="fab fa-facebook-square fa-3x mx-3 text-primary"></i>
+       <a href="/login/github"><i class="fab fa-facebook-square fa-3x mx-3 text-primary"></i></a> 
         <i class="fab fa-google-plus-square fa-3x mx-3 text-danger"></i>
         <i class="fab fa-linkedin fa-3x mx-3 text-primary"></i>
       </div>
@@ -74,3 +74,29 @@
   </div>
 </div>
 <!-- End Login Modal -->
+<!-- Create Modal -->
+<div class="modal fade" id="popupCreateModal" tabindex="-1" role="dialog" aria-labelledby="popupCreateModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="popupCreateModal">Create Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <label for="name">Name <span class="text-danger">*</span></label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" aria-describedby="name">
+                <small id="name" class="text-muted"></small>
+              </div>
+            </div>
+            <div class="col-6"></div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Create Modal -->

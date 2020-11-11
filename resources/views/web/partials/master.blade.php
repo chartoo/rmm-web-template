@@ -40,6 +40,11 @@
    
 @include('web.partials.footer');
 </body>
+<script>
+    var googleClientID = "{{ env("GOOGLE_CLIENT_ID") }}";
+    var facebookClientID = "{{ env("FACEBOOK_CLIENT_ID") }}";
+    var linedinClientID = "{{ env("LINKEDIN_CLIENT_ID") }}";
+</script>
 <script src="/js/jquery-3.5.1.slim.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/popper.min.js"></script>
@@ -69,6 +74,7 @@
             });
 
     });
+   
 </script>
 @stack('scripts')
 </html>
