@@ -1,0 +1,9 @@
+@extends('web.partials.master')
+@section('content')
+    @include('web.section-first')
+    @include('web.section-second')
+    @include('web.section-third')
+    @include('web.section-fourth')
+    @include('web.section-fifth')
+    @include('web.section-sixth')
+@endsection
