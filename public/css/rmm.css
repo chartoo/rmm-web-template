@@ -37,3 +37,11 @@
 .subscribe-form>button{
     margin-left:-5px;
 }
+.register-modal-dialog{
+    max-width: 800px !important;
+}
+#password-strong{
+    height:20px;
+    width:100%;
+    background-color: lightgray;
+}

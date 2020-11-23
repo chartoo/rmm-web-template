@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/circle-connect.css">
     <link rel="stylesheet" href="/css/show-by-city.css">
     <link rel="stylesheet" href="/css/fontawesome.css">
+    <link rel="stylesheet" href="/select2/select2.min.css">
     <!-- <link rel="stylesheet" href="/css/slick-theme.css"> -->
 
 <link rel="stylesheet" type="text/css" href="/css/daterangepicker.css" />
@@ -47,6 +48,7 @@
 
 <script type="text/javascript" src="/js/moment.min.js"></script>
 <script type="text/javascript" src="/js/daterangepicker.min.js"></script>
+<script type="text/javascript" src="/select2/select2.min.js"></script>
 <script>
     $(document).ready(function(){
         var date = new Date();
@@ -67,7 +69,7 @@
         }).on('cancel.daterangepicker', function(ev, picker) {
                 $(this).val('');
             });
-
+            $('.select2').select2();
     });
 </script>
 @stack('scripts')
