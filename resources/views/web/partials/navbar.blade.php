@@ -64,7 +64,7 @@
       <div class="pt-2">
       <h6 class="text-center">Login with social acoount</h6>
       <div class="text-center">
-        <i class="fab fa-facebook-square fa-3x mx-3 text-primary"></i>
+       <a href="/login/github"><i class="fab fa-facebook-square fa-3x mx-3 text-primary"></i></a> 
         <i class="fab fa-google-plus-square fa-3x mx-3 text-danger"></i>
         <i class="fab fa-linkedin fa-3x mx-3 text-primary"></i>
       </div>
