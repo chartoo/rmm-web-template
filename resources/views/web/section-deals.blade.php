@@ -40,7 +40,7 @@
 </div>
 <div class="row border bg-light rounded-0 py-1 mt-2 mx-1">
     <div class="col-4 text-right">
-        <i class="fas fa-step-backward" id="custom-prev-slick-slide"  data-toggle="tooltip" data-placement="top" title="Previous Slide"></i> &emsp;
+        {{-- <i class="fas fa-step-backward" id="custom-prev-slick-slide"  data-toggle="tooltip" data-placement="top" title="Previous Slide"></i> &emsp; --}}
         <i class="fas fa-chevron-left slick-next slick-arrow cursor-pointer" id="custom-prev-slick" data-toggle="tooltip" data-placement="top" title="Previous One"></i>
     </div>
     <div class="col-4 text-center">
@@ -48,6 +48,6 @@
     </div>
     <div class="col-4 text-left">
         <i class="fas fa-chevron-right hover-pointer cursor-pointer" id='custom-next-slick' data-toggle="tooltip" data-placement="top" title="Next One"></i> &emsp;
-        <i class="fas fa-step-forward" id="custom-next-slick-slide"  data-toggle="tooltip" data-placement="top" title="Next Slide"></i>
+        {{-- <i class="fas fa-step-forward" id="custom-next-slick-slide"  data-toggle="tooltip" data-placement="top" title="Next Slide"></i> --}}
     </div>
 </div>

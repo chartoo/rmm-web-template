@@ -15,10 +15,10 @@
             </div>
         </div>
         <div class="col-md-9 px-1">
-            @include('web.section-deals');
+            @include('web.section-deals')
         </div>
     </div>
-    <div class="row">
+    {{-- <div class="row">
         <div class="col-12">
             <div class="text-center">
                 <div class="circle circle-select pt-3 shadow">
@@ -43,7 +43,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 </div>
 @push('scripts')
     <script src="/js/deal-slick.js"></script>

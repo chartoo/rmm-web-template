@@ -11,7 +11,7 @@
             <div class="border rounded shadow text-center p-4">
                 <h4><b class="roboto">Post your rooms?</b></h4>
                 <p class="text-center p-4">It's FREE to advertise your rooms in the web's largest community!</p>
-                <a href="#" class="btn btn-md bg-purple px-3 py-1 text-white">Free list your room</a>
+                <a href="#" class="btn btn-md bg-purple px-3 py-1 text-white">Free list your place</a>
             </div>
         </div>
         <div class="col-md-4">
