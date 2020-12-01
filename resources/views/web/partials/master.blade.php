@@ -33,13 +33,14 @@
 </head>
 <body>
     @include('web.partials.navbar')
+    @include('web.partials.modal-account')
 <section class="bg-light">
     
     @yield('content')
 
 </section>
    
-@include('web.partials.footer');
+@include('web.partials.footer')
 </body>
 <script>
     var googleClientID = "{{ env("GOOGLE_CLIENT_ID") }}";

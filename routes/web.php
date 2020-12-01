@@ -23,3 +23,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::get('login/github',[LoginController::class, 'redirectToProvider']);
 Route::get('login/github/callback',[LoginController::class, 'handleProviderCallback']);
+

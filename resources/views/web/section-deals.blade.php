@@ -5,7 +5,7 @@
             <div class="img-discount">
                 <img src="/images/deal1.jpg"  class="rounded-top" alt="">
                 <div class="discount pt-2 text-right">
-                    <b class="bg-danger text-white p-2" style="font-size:14px;">20% OFF</b><br>
+                    <b class="text-white p-2 bg-upto-discount" style="font-size:14px;">20% OFF</b><br>
                     <b class="bg-white text-warning px-2">Availabel - 2</b>
                 </div>
             </div>

@@ -51,9 +51,8 @@
 <div class="container">
         <div class="row">
             <div class="col-12 text-white py-2">
-               <i>Our Community : copyright &copy; <?php echo date('Y');?></i> 
+               <i>Our Community : copyright &copy; <?php echo date('Y')?></i> 
             </div>
         </div>
     </div>
 </div>
-

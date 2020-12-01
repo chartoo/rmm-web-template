@@ -45,3 +45,7 @@
     width:100%;
     background-color: lightgray;
 }
+.bg-upto-discount{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red , rgb(238, 93, 93));
+}

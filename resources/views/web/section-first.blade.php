@@ -11,7 +11,7 @@
                 <div class="wrapper pb-4"> 
                     <input type="text" 
                             class="text form-control input-height"
-                            placeholder="Enter property name"
+                            placeholder="Enter search key "
                             name="uname" required>  
                     <img src="/images/icons/bed.png" alt=""> 
                 </div> 
