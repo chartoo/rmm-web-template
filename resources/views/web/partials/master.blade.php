@@ -47,7 +47,7 @@
     var facebookClientID = "{{ env("FACEBOOK_CLIENT_ID") }}";
     var linedinClientID = "{{ env("LINKEDIN_CLIENT_ID") }}";
 </script>
-<script src="/js/jquery-3.5.1.slim.min.js"></script>
+<script src="/js/jquery-3.5.1.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/popper.min.js"></script>
 <script src="/js/slick.js"></script>
@@ -55,6 +55,7 @@
 <script type="text/javascript" src="/js/moment.min.js"></script>
 <script type="text/javascript" src="/js/daterangepicker.min.js"></script>
 <script type="text/javascript" src="/select2/select2.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
 <script>
     $(document).ready(function(){
         var date = new Date();

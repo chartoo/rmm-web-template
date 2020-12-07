@@ -16,6 +16,7 @@ use App\Http\Controllers\LoginController;
 Route::get('/', function () {
     return view('web.index');
 });
+Route::post('/web/user/login','App\Http\Controllers\LoginController@webUserLogin')->name("web.user.login");
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

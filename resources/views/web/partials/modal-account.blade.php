@@ -11,6 +11,8 @@
         </div>
         <div class="modal-body">
         <div class="border rounded p-3">
+          <form action="{{route('web.user.login')}}" id="web-user-login" method="post">
+            @csrf
             <div class="form-group">
               <input type="text" name="email" id="email" class="text-highlight form-control" placeholder="Enter email">
             </div>
@@ -19,9 +21,9 @@
             </div>
             <a href="#"> <small><i> Forget password? </i></small> </a>
             <div class="text-center">
-            <button type="button" class="btn btn-primary px-3"><b>Login</b> </button>
+            <button type="submit" class="btn btn-primary px-3"><b>Login</b> </button>
             </div>
-           
+          </form>
         </div>
         <div class="pt-2">
         <h6 class="text-center">Login with social acoount</h6>
@@ -107,3 +109,7 @@
     </div>
   </div>
   <!-- End Register Modal -->
+
+ @push('scripts')
+<script src="/js/user-accounts/web.users.login.js"></script>
+ @endpush
