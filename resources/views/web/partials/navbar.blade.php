@@ -28,12 +28,35 @@
         </li>
       </ul>
     </div>
-    <ul class="navbar-nav">
-      <li class="nav-item pl-3">
+    <ul id="web-user-login-status" class="navbar-nav">
+      @guest
+          
+      <li class="nav-item pl-3 guest-user">
           <a class="nav-link" href="#"  data-toggle="modal" data-target="#popupLoginModal"><b><u>Login</u></b></a>
         </li>
-        <li class="nav-item pl-3">
+        <li class="nav-item pl-3 guest-user">
           <button class="btn btn-sm btn-success" href="#"  data-toggle="modal" data-target="#popupCreateModal"><b> Create Account </b></button>
         </li>
+      @endguest
+      @auth
+      <li class="nav-item pl-3 dropdown current-user">
+        <span class="nav-link user-dropdown-toggle" id="user-dropdown-toggle" role="button">
+          <span class="rounded-circle border p-2"><i class="fa fa-user"></i></span>  &nbsp;
+          <b>Current User</b>&nbsp;
+          <i class="fa fa-sort-down"></i>
+        </span>
+        <ul class="user-dropdown-content">
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li>
+              <form method="POST" action="{{ route('logout') }}" class="text-center">
+              @csrf
+              <button type="submit" class="btn border-secondary px-4 py-1 "><small id="web-current-name" class="roboto"> Logout</small></button>
+            </form>
+          </li>
+        </ul>
+      </li>
+      @endauth
       </ul>
   </nav>

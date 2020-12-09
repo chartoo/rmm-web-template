@@ -32,8 +32,8 @@ class LoginController extends Controller
         ]);
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return dd("Success");
+           return response()->json(['success' => true,"auth"=>Auth::user()]);
         }
-        dd("Fail");
+        return response()->json(['success' => false]);
     }
 }

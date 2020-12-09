@@ -11,8 +11,6 @@
                     <li><a href="#"><b>Searching Criteria</b></a></li>
                     <li><a href="#"><b>Property Management</b></a></li>
                     <li><a href="#"><b>Room Management</b></a></li>
-                    <li><a href="#"><b>Publishing Property</b></a></li>
-                    <li><a href="#"><b>Supports</b></a></li>
                     
                 </ul>
                 <h5 class="roboto"><b class="border-bottom">Rules and Regulations </b></h5>

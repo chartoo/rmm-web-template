@@ -15,6 +15,14 @@
                     }
                 });
             });
+        },
+        RMMUserLoginStatus:function(loggedIn){
+                if (loggedIn){
+                    $('#web-user-login-status .guest-user').remove();
+                }
+                else{
+                    $('#web-user-login-status .current-user').remove();
+                }
         }
     });
 }(jQuery));

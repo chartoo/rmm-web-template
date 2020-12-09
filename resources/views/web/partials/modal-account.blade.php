@@ -18,6 +18,7 @@
             </div>
             <div class="form-group">
               <input type="password" name="password" id="password" class="form-control" placeholder="Enter password">
+              <small id="error-alert" class="text-danger" hidden>Incorrent username or password! Please try again.</small>
             </div>
             <a href="#"> <small><i> Forget password? </i></small> </a>
             <div class="text-center">

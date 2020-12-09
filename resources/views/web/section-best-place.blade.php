@@ -66,5 +66,8 @@
             </div>
             <?php endforeach; ?>
     </div>
+    <div class="row">
+        <div class="col-12 text-center pt-3"><button class="border-success bg-white px-3 px-2 rounded">Load More</button></div>
+    </div>
 </div>
 </section>
